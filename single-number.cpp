@@ -8,7 +8,7 @@ A   B   Output
 1	1	0
 */
 
-class Solution {
+lass Solution {
 public:
     int singleNumber(vector<int>& nums) {
         for(int i=1; i<nums.size(); i++){
@@ -17,6 +17,5 @@ public:
         return nums[0];
     }
 };
-
 
      
